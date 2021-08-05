@@ -1,0 +1,9 @@
+{
+  "name": "perf-deets",
+  "version": "1.0.15",
+  "main": "./index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@observablehq/plot": "^0.1.0"
+  }
+}
