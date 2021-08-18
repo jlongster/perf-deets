@@ -5,11 +5,9 @@ let counts = {};
 
 let apiVersion = 1;
 
-if (process.env.NODE_ENV === 'production') {
-  console.warning(
-    'Warning: perf-deets loaded in production. This will cause unnecessary performance recordings'
-  );
-}
+console.warn(
+  'perf-deets loaded. If this is the production bundle, you should remove it'
+);
 
 function last(arr) {
   return arr.length === 0 ? null : arr[arr.length - 1];
